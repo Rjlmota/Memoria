@@ -12,5 +12,5 @@ def read():
 
 slots = {}
 
-for i in range(0, 15):
+for i in range(0, 16):
     slots[bin(i)[2:].zfill(4)] = "00000000"
