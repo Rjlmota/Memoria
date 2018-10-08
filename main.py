@@ -1,4 +1,6 @@
-import ram
+from ram import memoryram
+
+ram = memoryram()
 
 op = "R"
 

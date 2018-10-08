@@ -1,5 +1,6 @@
-import ram3
+from ram3 import memoryram
 
+ram3 = memoryram()
 op = "R"
 
 while op in ("RWLrwl"):
