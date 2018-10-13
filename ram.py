@@ -1,13 +1,13 @@
 
 def write():
-    adress = raw_input("Indique o endereco de 4 bits: ")
-    value = raw_input("Indique o valor de 8 bits : ")
+    adress = raw_input("Insira um endereco de 4 bits: ")
+    value = raw_input("Insira um valor de 8 bits : ")
 
     slots[adress.zfill(4)] = value.zfill(8)
 
 
 def read():
-	adress = raw_input("Indique o endereco de 4 bits: ")
+	adress = raw_input("Insira um endereco de 4 bits: ")
         print slots[adress.zfill(4)]
 
 slots = {}
