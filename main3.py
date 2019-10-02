@@ -10,7 +10,7 @@ while op in ("RWLrwl"):
         ram3.read()
     if op == "W":
         ram3.write()
-    if op == "L:
+    if op == "L":
         for i in sorted(ram3.slots):
             print(i, ram3.slots[i])
 
